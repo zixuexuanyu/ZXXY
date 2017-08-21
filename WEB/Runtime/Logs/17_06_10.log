@@ -1,0 +1,911 @@
+[ 2017-06-10T14:47:17+08:00 ] 127.0.0.1 /TodayNews-APP-PHP/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.005000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.030001s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.040001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040001s ]
+INFO: [ view_filter ] --START--
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' D:\phpStudy\WWW\TodayNews-APP-PHP\ThinkPHP\Lib\Behavior\ContentReplaceBehavior.class.php 第 40 行.
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' D:\phpStudy\WWW\TodayNews-APP-PHP\ThinkPHP\Lib\Behavior\ContentReplaceBehavior.class.php 第 47 行.
+INFO: ContentReplace Behavior ::run [ RunTime:0.010000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002500s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002500s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002500s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002500s ]
+
+[ 2017-06-10T15:32:36+08:00 ] 127.0.0.1 /TodayNews-APP-PHP/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.005000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.020000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.002500s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002500s ]
+INFO: [ view_filter ] --START--
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' D:\phpStudy\WWW\TodayNews-APP-PHP\ThinkPHP\Lib\Behavior\ContentReplaceBehavior.class.php 第 40 行.
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' D:\phpStudy\WWW\TodayNews-APP-PHP\ThinkPHP\Lib\Behavior\ContentReplaceBehavior.class.php 第 47 行.
+INFO: ContentReplace Behavior ::run [ RunTime:0.002500s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-10T15:57:33+08:00 ] 127.0.0.1 /TodayNews-APP-PHP/index.php/register
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.005001s ]
+INFO: [ route_check ] --END-- [ RunTime:0.015001s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.005000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+ERR: 无法加载模块:register
+
+[ 2017-06-10T15:58:02+08:00 ] 127.0.0.1 /TodayNews-APP-PHP/index.php/User/register
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:register
+
+[ 2017-06-10T15:58:19+08:00 ] 127.0.0.1 /TodayNews-APP-PHP/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016501s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016501s ]
+INFO: [ view_filter ] --START--
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' D:\phpStudy\WWW\TodayNews-APP-PHP\ThinkPHP\Lib\Behavior\ContentReplaceBehavior.class.php 第 40 行.
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' D:\phpStudy\WWW\TodayNews-APP-PHP\ThinkPHP\Lib\Behavior\ContentReplaceBehavior.class.php 第 47 行.
+INFO: ContentReplace Behavior ::run [ RunTime:0.017500s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002500s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.022500s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002500s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002500s ]
+
+[ 2017-06-10T15:58:26+08:00 ] 127.0.0.1 /TodayNews-APP-PHP/index.php/User
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:index
+
+[ 2017-06-10T15:58:50+08:00 ] 127.0.0.1 /TodayNews-APP-PHP/index.php/User/regsiter
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: Unknown database 'todaynews-app-php'
+
+[ 2017-06-10T15:59:19+08:00 ] 127.0.0.1 /TodayNews-APP-PHP/index.php/user/regsiter
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002500s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:user
+
+[ 2017-06-10T15:59:22+08:00 ] 127.0.0.1 /TodayNews-APP-PHP/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.002500s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002500s ]
+INFO: [ view_filter ] --START--
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' D:\phpStudy\WWW\TodayNews-APP-PHP\ThinkPHP\Lib\Behavior\ContentReplaceBehavior.class.php 第 40 行.
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' D:\phpStudy\WWW\TodayNews-APP-PHP\ThinkPHP\Lib\Behavior\ContentReplaceBehavior.class.php 第 47 行.
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002500s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-10T15:59:41+08:00 ] 127.0.0.1 /TodayNews-APP-PHP/index.php/user/regsiter
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002500s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+ERR: 无法加载模块:user
+
+[ 2017-06-10T16:00:03+08:00 ] 127.0.0.1 /TodayNews-APP-PHP/index.php/user/regsiter
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:user
+
+[ 2017-06-10T16:00:14+08:00 ] 127.0.0.1 /TodayNews-APP-PHP/index.php/user/regsiter
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+ERR: 无法加载模块:user
+
+[ 2017-06-10T16:01:22+08:00 ] 127.0.0.1 /TodayNews-APP-PHP/index.php/user/regsiter
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+ERR: 无法加载模块:user
+
+[ 2017-06-10T16:01:27+08:00 ] 127.0.0.1 /TodayNews-APP-PHP/index.php/User/regsiter
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: Unknown database 'todaynews-app-php'
+
+[ 2017-06-10T16:01:30+08:00 ] 127.0.0.1 /TodayNews-APP-PHP/index.php/User
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:index
+
+[ 2017-06-10T16:01:30+08:00 ] 127.0.0.1 /TodayNews-APP-PHP/index.php/User/register
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:register
+
+[ 2017-06-10T16:01:33+08:00 ] 127.0.0.1 /TodayNews-APP-PHP/index.php/register
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:register
+
+[ 2017-06-10T16:01:38+08:00 ] 127.0.0.1 /TodayNews-APP-PHP/index.php/register
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002500s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:register
+
+[ 2017-06-10T16:01:52+08:00 ] 127.0.0.1 /TodayNews-APP-PHP/index.php/register
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:register
+
+[ 2017-06-10T16:02:19+08:00 ] 127.0.0.1 /TodayNews-APP-PHP/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.002000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_filter ] --START--
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' D:\phpStudy\WWW\TodayNews-APP-PHP\ThinkPHP\Lib\Behavior\ContentReplaceBehavior.class.php 第 40 行.
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' D:\phpStudy\WWW\TodayNews-APP-PHP\ThinkPHP\Lib\Behavior\ContentReplaceBehavior.class.php 第 47 行.
+INFO: ContentReplace Behavior ::run [ RunTime:0.001000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-10T16:02:30+08:00 ] 127.0.0.1 /TodayNews-APP-PHP/index.php/user/regsiter
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.015600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+ERR: 无法加载模块:user
+
+[ 2017-06-10T16:02:38+08:00 ] 127.0.0.1 /TodayNews-APP-PHP/index.php/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' D:\phpStudy\WWW\TodayNews-APP-PHP\ThinkPHP\Lib\Behavior\ContentReplaceBehavior.class.php 第 40 行.
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' D:\phpStudy\WWW\TodayNews-APP-PHP\ThinkPHP\Lib\Behavior\ContentReplaceBehavior.class.php 第 47 行.
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-10T16:02:43+08:00 ] 127.0.0.1 /TodayNews-APP-PHP/index.php/user
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:user
+
+[ 2017-06-10T16:07:18+08:00 ] 127.0.0.1 /TodayNews-APP-PHP/index.php/user/register
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002500s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:user
+
+[ 2017-06-10T16:07:22+08:00 ] 127.0.0.1 /TodayNews-APP-PHP/index.php/user/register
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:user
+
+[ 2017-06-10T16:07:27+08:00 ] 127.0.0.1 /TodayNews-APP-PHP/index.php/User/register
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.015600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+ERR: Unknown database 'todaynews-schema'
+
+[ 2017-06-10T16:10:09+08:00 ] 127.0.0.1 /TodayNews-APP-PHP/index.php/User/register
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.010000s ]
+SQL: INSERT INTO `user` (`phone`,`password`) VALUES ('15011564157','123') [ RunTime:0.000000s ]
+
+[ 2017-06-10T17:14:49+08:00 ] 127.0.0.1 /TodayNews-APP-PHP/index.php/user/register
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002500s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+ERR: 无法加载模块:user
+
+[ 2017-06-10T17:14:49+08:00 ] 127.0.0.1 /TodayNews-APP-PHP/index.php/user
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:user
+
+[ 2017-06-10T17:14:51+08:00 ] 127.0.0.1 /TodayNews-APP-PHP/index.php/user/regsiter
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:user
+
+[ 2017-06-10T17:15:01+08:00 ] 127.0.0.1 /TodayNews-APP-PHP/index.php/register
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:register
+
+[ 2017-06-10T17:15:07+08:00 ] 127.0.0.1 /TodayNews-APP-PHP/index.php/register
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:register
+
+[ 2017-06-10T17:15:18+08:00 ] 127.0.0.1 /TodayNews-APP-PHP/index.php/register
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:register
+
+[ 2017-06-10T17:15:26+08:00 ] 127.0.0.1 /TodayNews-APP-PHP/index.php/register
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:register
+
+[ 2017-06-10T17:15:44+08:00 ] 192.168.0.105 /TodayNews-APP-PHP/index.php/register
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:register
+
+[ 2017-06-10T17:16:03+08:00 ] 127.0.0.1 /TodayNews-APP-PHP/index.php/register
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:register
+
+[ 2017-06-10T17:16:36+08:00 ] 192.168.0.105 /TodayNews-APP-PHP/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' D:\phpStudy\WWW\TodayNews-APP-PHP\ThinkPHP\Lib\Behavior\ContentReplaceBehavior.class.php 第 40 行.
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' D:\phpStudy\WWW\TodayNews-APP-PHP\ThinkPHP\Lib\Behavior\ContentReplaceBehavior.class.php 第 47 行.
+INFO: ContentReplace Behavior ::run [ RunTime:0.015000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002500s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.020000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-10T17:16:57+08:00 ] 192.168.0.105 /TodayNews-APP-PHP/index.php/user/register
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:user
+
+[ 2017-06-10T17:17:15+08:00 ] 192.168.0.105 /TodayNews-APP-PHP/index.php/user/register
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.015600s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:user
+
+[ 2017-06-10T17:17:28+08:00 ] 192.168.0.105 /TodayNews-APP-PHP/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' D:\phpStudy\WWW\TodayNews-APP-PHP\ThinkPHP\Lib\Behavior\ContentReplaceBehavior.class.php 第 40 行.
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' D:\phpStudy\WWW\TodayNews-APP-PHP\ThinkPHP\Lib\Behavior\ContentReplaceBehavior.class.php 第 47 行.
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-10T17:17:35+08:00 ] 192.168.0.105 /TodayNews-APP-PHP/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' D:\phpStudy\WWW\TodayNews-APP-PHP\ThinkPHP\Lib\Behavior\ContentReplaceBehavior.class.php 第 40 行.
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' D:\phpStudy\WWW\TodayNews-APP-PHP\ThinkPHP\Lib\Behavior\ContentReplaceBehavior.class.php 第 47 行.
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-10T17:17:46+08:00 ] 192.168.0.105 /TodayNews-APP-PHP/index.php/User/register
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.007500s ]
+SQL: INSERT INTO `user` (`phone`,`password`) VALUES ('15011564157','123') [ RunTime:0.065001s ]
+
+[ 2017-06-10T17:52:59+08:00 ] 192.168.0.105 /TodayNews-APP-PHP/index.php/User/register?phone=15011564157&password=111&t=0.6880403244867921&package_name_data=HBuilder
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.077010s ]
+INFO: [ route_check ] --END-- [ RunTime:0.114514s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.366046s ]
+SQL: SELECT * FROM `user` WHERE ( phone='15011564157' ) LIMIT 1   [ RunTime:0.015501s ]
+
+[ 2017-06-10T17:53:23+08:00 ] 192.168.0.105 /TodayNews-APP-PHP/index.php/User/register?phone=15011564157&password=111&t=0.7155545556452125&package_name_data=HBuilder
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.007000s ]
+SQL: SELECT * FROM `user` WHERE ( phone='15011564157' ) LIMIT 1   [ RunTime:0.001000s ]
+
+[ 2017-06-10T17:54:12+08:00 ] 192.168.0.105 /TodayNews-APP-PHP/index.php/User/register
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: phone D:\phpStudy\WWW\TodayNews-APP-PHP\WEB\Lib\Action\UserAction.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.007501s ]
+SQL: SELECT * FROM `user` WHERE ( phone='' ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: password D:\phpStudy\WWW\TodayNews-APP-PHP\WEB\Lib\Action\UserAction.class.php 第 14 行.
+SQL: INSERT INTO `user` (`password`,`time`) VALUES ('d41d8cd98f00b204e9800998ecf8427e',1497088452) [ RunTime:0.014502s ]
+
+[ 2017-06-10T17:54:57+08:00 ] 192.168.0.105 /TodayNews-APP-PHP/index.php/User/register?phone=15011564157&password=1111&t=0.863286066101864&package_name_data=HBuilder
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002001s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.009002s ]
+SQL: SELECT * FROM `user` WHERE ( phone='15011564157' ) LIMIT 1   [ RunTime:0.000500s ]
+SQL: INSERT INTO `user` (`phone`,`password`,`time`) VALUES ('15011564157','b59c67bf196a4758191e42f76670ceba',1497088497) [ RunTime:0.000500s ]
+
+[ 2017-06-10T19:12:35+08:00 ] 192.168.0.105 /TodayNews-APP-PHP/index.php/User/register
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002500s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: phone D:\phpStudy\WWW\TodayNews-APP-PHP\WEB\Lib\Action\UserAction.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.006500s ]
+SQL: SELECT * FROM `user` WHERE ( phone='' ) LIMIT 1   [ RunTime:0.001500s ]
+NOTIC: [8] Undefined index: password D:\phpStudy\WWW\TodayNews-APP-PHP\WEB\Lib\Action\UserAction.class.php 第 14 行.
+SQL: INSERT INTO `user` (`password`,`time`) VALUES ('d41d8cd98f00b204e9800998ecf8427e',1497093155) [ RunTime:0.001000s ]
+
+[ 2017-06-10T19:13:42+08:00 ] 192.168.0.105 /TodayNews-APP-PHP/index.php/User/register?phone=15011564157&password=111&t=0.3738304420839995&package_name_data=HBuilder
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001500s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.007001s ]
+SQL: SELECT * FROM `user` WHERE ( phone='15011564157' ) LIMIT 1   [ RunTime:0.000500s ]
+SQL: INSERT INTO `user` (`phone`,`password`,`time`) VALUES ('15011564157','698d51a19d8a121ce581499d7b701668',1497093222) [ RunTime:0.000500s ]
+
+[ 2017-06-10T19:18:11+08:00 ] 192.168.0.105 /TodayNews-APP-PHP/index.php/User/register?phone=15011564157&password=111&t=0.47829347220249474&package_name_data=HBuilder
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001500s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001500s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.008001s ]
+SQL: SELECT * FROM `user` WHERE ( phone='15011564157' ) LIMIT 1   [ RunTime:0.000500s ]
+
+[ 2017-06-10T19:19:42+08:00 ] 192.168.0.105 /TodayNews-APP-PHP/index.php/User/register?phone=15011564157&password=1&t=0.1805968238040805&package_name_data=HBuilder
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.005000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005500s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.009501s ]
+SQL: SELECT * FROM `user` WHERE ( phone='15011564157' ) LIMIT 1   [ RunTime:0.001000s ]
+
+[ 2017-06-10T19:21:07+08:00 ] 192.168.0.105 /TodayNews-APP-PHP/index.php/User/register?phone=13222222222&password=1&t=0.8916764634195715&package_name_data=HBuilder
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003500s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.007001s ]
+SQL: SELECT * FROM `user` WHERE ( phone='13222222222' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: INSERT INTO `user` (`phone`,`password`,`time`) VALUES ('13222222222','c4ca4238a0b923820dcc509a6f75849b',1497093667) [ RunTime:0.103513s ]
+
+[ 2017-06-10T19:21:49+08:00 ] 192.168.0.105 /TodayNews-APP-PHP/index.php/User/register
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001500s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001500s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: phone D:\phpStudy\WWW\TodayNews-APP-PHP\WEB\Lib\Action\UserAction.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.008501s ]
+SQL: SELECT * FROM `user` WHERE ( phone='' ) LIMIT 1   [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: password D:\phpStudy\WWW\TodayNews-APP-PHP\WEB\Lib\Action\UserAction.class.php 第 14 行.
+SQL: INSERT INTO `user` (`password`,`time`) VALUES ('d41d8cd98f00b204e9800998ecf8427e',1497093709) [ RunTime:0.001001s ]
+
+[ 2017-06-10T19:23:43+08:00 ] 192.168.0.105 /TodayNews-APP-PHP/index.php/User/register?phone=15011564157&password=1&t=0.28839748399332166&package_name_data=HBuilder
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003500s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001500s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.006001s ]
+SQL: SELECT * FROM `user` WHERE ( phone='15011564157' ) LIMIT 1   [ RunTime:0.001000s ]
+
+[ 2017-06-10T19:24:54+08:00 ] 192.168.0.105 /TodayNews-APP-PHP/index.php/User/register?phone=15011564157&password=1&t=0.20174685888923705&package_name_data=HBuilder
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001501s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001501s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001500s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.006500s ]
+SQL: SELECT * FROM `user` WHERE ( phone='15011564157' ) LIMIT 1   [ RunTime:0.001001s ]
+
+[ 2017-06-10T19:25:43+08:00 ] 192.168.0.105 /TodayNews-APP-PHP/index.php/User/register?phone=15011564157&password=1&t=0.25341039919294417&package_name_data=HBuilder
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002001s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002501s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.008501s ]
+SQL: SELECT * FROM `user` WHERE ( phone='15011564157' ) LIMIT 1   [ RunTime:0.001000s ]
+
+[ 2017-06-10T19:26:40+08:00 ] 192.168.0.105 /TodayNews-APP-PHP/index.php/User/register?phone=15011564157&password=1&t=0.9486535096075386&package_name_data=HBuilder
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001500s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001500s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.072509s ]
+SQL: INSERT INTO `user` (`phone`,`password`,`time`) VALUES ('15011564157','c4ca4238a0b923820dcc509a6f75849b',1497093999) [ RunTime:0.000500s ]
+
+[ 2017-06-10T19:27:46+08:00 ] 192.168.0.105 /TodayNews-APP-PHP/index.php/User/register?phone=15011564157&password=1&t=0.5533171456772834&package_name_data=HBuilder
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001500s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.069008s ]
+SQL: INSERT INTO `user` (`phone`,`password`,`time`) VALUES ('15011564157','c4ca4238a0b923820dcc509a6f75849b',1497094065) [ RunTime:0.001001s ]
+
+[ 2017-06-10T19:28:57+08:00 ] 192.168.0.105 /TodayNews-APP-PHP/index.php/User/register?phone=15011564157&password=1&t=0.39193116035312414
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001500s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001500s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.006001s ]
+SQL: INSERT INTO `user` (`phone`,`password`,`time`) VALUES ('15011564157','c4ca4238a0b923820dcc509a6f75849b',1497094136) [ RunTime:0.001500s ]
+
+[ 2017-06-10T20:30:21+08:00 ] 192.168.0.105 /TodayNews-APP-PHP/index.php/User/register?phone=13456789098&password=1111&t=0.9082539530936629&package_name_data=HBuilder
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001500s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001500s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.134518s ]
+SQL: INSERT INTO `user` (`phone`,`password`,`time`) VALUES ('13456789098','b59c67bf196a4758191e42f76670ceba',1497097820) [ RunTime:0.000500s ]
+
+[ 2017-06-10T20:36:46+08:00 ] 192.168.0.105 /TodayNews-APP-PHP/index.php/User/register?phone=13245760987&password=1111&t=0.04235084215179086&package_name_data=HBuilder
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001500s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.010001s ]
+SQL: INSERT INTO `user` (`phone`,`password`,`time`) VALUES ('13245760987','b59c67bf196a4758191e42f76670ceba',1497098205) [ RunTime:0.001501s ]
+
+[ 2017-06-10T20:39:27+08:00 ] 192.168.0.105 /TodayNews-APP-PHP/index.php/User/register?phone=13245678909&password=1111&t=0.5643504832405597&package_name_data=HBuilder
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001501s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001501s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001500s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.008502s ]
+SQL: INSERT INTO `user` (`phone`,`password`,`time`) VALUES ('13245678909','b59c67bf196a4758191e42f76670ceba',1497098366) [ RunTime:0.000500s ]
+
+[ 2017-06-10T20:40:32+08:00 ] 192.168.0.105 /TodayNews-APP-PHP/index.php/User/register
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: password D:\phpStudy\WWW\TodayNews-APP-PHP\WEB\Lib\Action\UserAction.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.007501s ]
+SQL: INSERT INTO `user` (`password`,`time`) VALUES ('d41d8cd98f00b204e9800998ecf8427e',1497098431) [ RunTime:0.001000s ]
+
+[ 2017-06-10T20:43:52+08:00 ] 192.168.0.105 /TodayNews-APP-PHP/index.php/User/register?phone=13245678909&password=1111&t=0.7215877582784742&package_name_data=HBuilder
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001500s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.005001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005001s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.007001s ]
+SQL: INSERT INTO `user` (`phone`,`password`,`time`) VALUES ('13245678909','b59c67bf196a4758191e42f76670ceba',1497098631) [ RunTime:0.002000s ]
+
+[ 2017-06-10T20:44:24+08:00 ] 192.168.0.105 /TodayNews-APP-PHP/index.php/User/register?phone=13222222222&password=222&t=0.7127707088366151&package_name_data=HBuilder
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001500s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001500s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001500s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.008501s ]
+SQL: INSERT INTO `user` (`phone`,`password`,`time`) VALUES ('13222222222','bcbe3365e6ac95ea2c0343a2395834dd',1497098663) [ RunTime:0.001501s ]
+
+[ 2017-06-10T20:55:47+08:00 ] 192.168.0.105 /TodayNews-APP-PHP/index.php/User/register?phone=13222222222&code=&t=0.4522912781685591&package_name_data=HBuilder
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [8] Undefined index: password D:\phpStudy\WWW\TodayNews-APP-PHP\WEB\Lib\Action\UserAction.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.009001s ]
+SQL: INSERT INTO `user` (`phone`,`password`,`time`) VALUES ('13222222222','d41d8cd98f00b204e9800998ecf8427e',1497099346) [ RunTime:0.000500s ]
+
+[ 2017-06-10T20:56:53+08:00 ] 192.168.0.105 /TodayNews-APP-PHP/index.php/User/register
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: password D:\phpStudy\WWW\TodayNews-APP-PHP\WEB\Lib\Action\UserAction.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.007501s ]
+SQL: INSERT INTO `user` (`password`,`time`) VALUES ('d41d8cd98f00b204e9800998ecf8427e',1497099412) [ RunTime:0.001000s ]
+
+[ 2017-06-10T21:00:01+08:00 ] 192.168.0.105 /TodayNews-APP-PHP/index.php/User/register?phone=13233334444&code=&t=0.3203397477045655&package_name_data=HBuilder
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001001s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001501s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: password D:\phpStudy\WWW\TodayNews-APP-PHP\WEB\Lib\Action\UserAction.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.008501s ]
+NOTIC: [8] Undefined variable: DD D:\phpStudy\WWW\TodayNews-APP-PHP\WEB\Lib\Action\UserAction.class.php 第 17 行.
+
+[ 2017-06-10T21:02:09+08:00 ] 192.168.0.105 /TodayNews-APP-PHP/index.php/User/register?phone=13233334444&code=&t=0.7149526788853109&package_name_data=HBuilder
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001501s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001501s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: password D:\phpStudy\WWW\TodayNews-APP-PHP\WEB\Lib\Action\UserAction.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.009501s ]
+SQL: INSERT INTO `user` (`phone`,`password`,`time`) VALUES ('13233334444','d41d8cd98f00b204e9800998ecf8427e',1497099728) [ RunTime:0.001501s ]
+
+[ 2017-06-10T21:02:59+08:00 ] 192.168.0.105 /TodayNews-APP-PHP/index.php/User/register?phone=13233334444&code=&t=0.18386240117251873&package_name_data=HBuilder
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002500s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001500s ]
+NOTIC: [8] Undefined index: password D:\phpStudy\WWW\TodayNews-APP-PHP\WEB\Lib\Action\UserAction.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.008501s ]
+SQL: INSERT INTO `user` (`phone`,`password`,`time`) VALUES ('13233334444','d41d8cd98f00b204e9800998ecf8427e',1497099778) [ RunTime:0.001000s ]
+
+[ 2017-06-10T21:06:50+08:00 ] 192.168.0.105 /TodayNews-APP-PHP/index.php/User/register?phone=13233334444&code=&t=0.7835951412562281&package_name_data=HBuilder
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003001s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: password D:\phpStudy\WWW\TodayNews-APP-PHP\WEB\Lib\Action\UserAction.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.021503s ]
+SQL: INSERT INTO `user` (`phone`,`password`,`time`) VALUES ('13233334444','d41d8cd98f00b204e9800998ecf8427e',1497100009) [ RunTime:0.000500s ]
+
+[ 2017-06-10T21:07:49+08:00 ] 192.168.0.105 /TodayNews-APP-PHP/index.php/User/register?phone=13455555555&code=&t=0.3371695664245635&package_name_data=HBuilder
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: password D:\phpStudy\WWW\TodayNews-APP-PHP\WEB\Lib\Action\UserAction.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.008001s ]
+SQL: INSERT INTO `user` (`phone`,`password`,`time`) VALUES ('13455555555','d41d8cd98f00b204e9800998ecf8427e',1497100068) [ RunTime:0.001500s ]
+
+[ 2017-06-10T21:18:26+08:00 ] 192.168.0.105 /TodayNews-APP-PHP/index.php/User/register?phone=13244445555&password=5&t=0.5171064278110862&package_name_data=HBuilder
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.004000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004500s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003501s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.008501s ]
+SQL: INSERT INTO `user` (`phone`,`password`,`time`) VALUES ('13244445555','e4da3b7fbbce2345d7772b0674a318d5',1497100705) [ RunTime:0.000500s ]
+
+[ 2017-06-10T21:19:57+08:00 ] 192.168.0.105 /TodayNews-APP-PHP/index.php/User/register?phone=13477777777&password=7&t=0.8983278574887663&package_name_data=HBuilder
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002500s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001500s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.142518s ]
+SQL: INSERT INTO `user` (`phone`,`password`,`time`) VALUES ('13477777777','8f14e45fceea167a5a36dedd4bea2543',1497100796) [ RunTime:0.001000s ]
+
+[ 2017-06-10T21:21:50+08:00 ] 192.168.0.105 /TodayNews-APP-PHP/index.php/User/register?phone=13477777777&password=7&t=0.9105264914687723&package_name_data=HBuilder
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002001s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001500s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.014501s ]
+SQL: INSERT INTO `user` (`phone`,`password`,`time`) VALUES ('13477777777','8f14e45fceea167a5a36dedd4bea2543',1497100908) [ RunTime:0.001501s ]
+
+[ 2017-06-10T21:45:34+08:00 ] 192.168.0.105 /TodayNews-APP-PHP/index.php/user/register?phone=13455555555&password=1&t=0.827170790405944&package_name_data=HBuilder
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003501s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001500s ]
+ERR: 无法加载模块:user
+
+[ 2017-06-10T22:56:22+08:00 ] 192.168.0.105 /TodayNews-APP-PHP/index.php/user/register?phone=13488889999&password=9&t=0.25263773021288216&package_name_data=HBuilder
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.025503s ]
+INFO: [ route_check ] --END-- [ RunTime:0.059507s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.012501s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012501s ]
+ERR: 无法加载模块:user
+
+[ 2017-06-10T23:38:48+08:00 ] 192.168.0.105 /TodayNews-APP-PHP/index.php/user/register?phone=13244445555&password=5&t=0.39093103166669607&package_name_data=HBuilder
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002500s ]
+INFO: [ route_check ] --END-- [ RunTime:0.011501s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载模块:user
+
+[ 2017-06-10T23:39:21+08:00 ] 192.168.0.105 /TodayNews-APP-PHP/index.php/user/register?phone=13244445555&password=5&t=0.5911544081754982&package_name_data=HBuilder
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001500s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001500s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001500s ]
+ERR: 无法加载模块:user
+
+[ 2017-06-10T23:40:05+08:00 ] 192.168.0.105 /TodayNews-APP-PHP/index.php/User/register?phone=13277778888&password=8&t=0.12360193836502731&package_name_data=HBuilder
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.007001s ]
+SQL: INSERT INTO `user` (`phone`,`password`,`time`) VALUES ('13277778888','c9f0f895fb98ab9159f51fd0297e236d',1497109204) [ RunTime:0.032004s ]
+
+[ 2017-06-10T23:40:18+08:00 ] 192.168.0.105 /TodayNews-APP-PHP/index.php/User/register?phone=13277778888&password=8&t=0.136715074069798&package_name_data=HBuilder
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.041005s ]
+INFO: [ route_check ] --END-- [ RunTime:0.041505s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.009001s ]
+SQL: INSERT INTO `user` (`phone`,`password`,`time`) VALUES ('13277778888','c9f0f895fb98ab9159f51fd0297e236d',1497109217) [ RunTime:0.072509s ]
+
+[ 2017-06-10T23:42:10+08:00 ] 192.168.0.105 /TodayNews-APP-PHP/index.php/User/register
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001501s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001501s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001500s ]
+NOTIC: [8] Undefined index: password D:\phpStudy\WWW\TodayNews-APP-PHP\WEB\Lib\Action\UserAction.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.006001s ]
+SQL: INSERT INTO `user` (`password`,`time`) VALUES ('d41d8cd98f00b204e9800998ecf8427e',1497109329) [ RunTime:0.000500s ]
+
+[ 2017-06-10T23:44:15+08:00 ] 192.168.0.105 /TodayNews-APP-PHP/index.php/User/register
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001500s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001500s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.006001s ]
+SQL: INSERT INTO `user` (`phone`,`password`,`time`) VALUES ('13255556666','1679091c5a880faf6fb5e6087eb1b2dc',1497109454) [ RunTime:0.000500s ]
+
+[ 2017-06-10T23:46:34+08:00 ] 192.168.0.105 /TodayNews-APP-PHP/index.php/User/register
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002500s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.006001s ]
+SQL: INSERT INTO `user` (`phone`,`password`,`time`) VALUES ('13255556666','1679091c5a880faf6fb5e6087eb1b2dc',1497109593) [ RunTime:0.000500s ]
+
+[ 2017-06-10T23:47:13+08:00 ] 192.168.0.105 /TodayNews-APP-PHP/index.php/User/register
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001500s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001500s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: password D:\phpStudy\WWW\TodayNews-APP-PHP\WEB\Lib\Action\UserAction.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.007501s ]
+SQL: INSERT INTO `user` (`password`,`time`) VALUES ('d41d8cd98f00b204e9800998ecf8427e',1497109632) [ RunTime:0.000500s ]
+
